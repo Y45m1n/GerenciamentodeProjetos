@@ -1,6 +1,7 @@
 ## ![Gerenciamento de Projetos](https://img.icons8.com/ios-filled/50/000000/project-management.png) Gerenciamento de Projetos 
 
-### ![Gerenciamento de Projetos]([https://icons8.com.br/icon/123402/static-view-level1](https://img.icons8.com/?size=100&id=123402&format=png&color=000000)) ESCOPO:
+### ![image](https://github.com/user-attachments/assets/2557f9ad-6b79-462d-b332-b0feb60354c9)
+ ESCOPO:
 - O objetivo deste projeto desenvolvido em Laravel, consiste em um Sistema de Gerenciamento de Projetos que permita a colaboração eficiente entre equipes, atribuição de tarefas e acompanhamento do progresso dos projetos. O sistema deve atender às necessidades de gerentes e membros da equipe para otimizar o gerenciamento e a execução dos projetos.
 
 ### ![https://icons8.com.br/icon/123812/purposeful-woman] OBJETIVOS:
