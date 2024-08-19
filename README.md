@@ -26,7 +26,27 @@
 ### CRONOGRAMA:
 <p><img src="/img/cronograma.png" width="1000px">
 
+### RECURSOS:
+- Laravel Framework
+- PostgreSQL Database
+- Visual Studio Code
+- Pusher para notificações em tempo real
+- Excel (cronograma)
+- Miro (diagramas)
+- Git/GitHub
 
+### ANÁLISE DE RISCO:
+- Atrasos no cronograma devido a requisitos não previstos.
+- Problemas Técnicos com Internet.
+
+### DIAGRAMA DE CLASSE:
+
+
+### DIAGRAMA DE USO:
+
+
+### DIAGRAMA DE FLUXO:
+<p><img src="/img/diagramaFluxo.png" width="1000px">
 
 
 
