@@ -24,6 +24,9 @@
 - Facilitar o processo de criação de projetos entre equipes e gerentes, otimizando o processo.
 
 ### CRONOGRAMA:
+<p><img src="/img/cronograma.png" width="1000px">
+
+
 
 
 
