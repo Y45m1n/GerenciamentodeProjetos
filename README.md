@@ -2,6 +2,7 @@
 
 ### ESCOPO:
 - O objetivo deste projeto desenvolvido em Laravel, consiste em um Sistema de Gerenciamento de Projetos que permita a colaboração eficiente entre equipes, atribuição de tarefas e acompanhamento do progresso dos projetos. O sistema deve atender às necessidades de gerentes e membros da equipe para otimizar o gerenciamento e a execução dos projetos.
+
 ![![Uploading image.png…]()](https://img.icons8.com/?size=100&id=60672&format=png&color=000000) 
 ### OBJETIVOS: 
 -- Específicos:
