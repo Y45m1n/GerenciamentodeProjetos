@@ -3,7 +3,6 @@
 ### ESCOPO:
 - O objetivo deste projeto desenvolvido em Laravel, consiste em um Sistema de Gerenciamento de Projetos que permita a colaboração eficiente entre equipes, atribuição de tarefas e acompanhamento do progresso dos projetos. O sistema deve atender às necessidades de gerentes e membros da equipe para otimizar o gerenciamento e a execução dos projetos.
 
-![![Uploading image.png…]()](https://img.icons8.com/?size=100&id=60672&format=png&color=000000) 
 ### OBJETIVOS: 
 -- Específicos:
 - Desenvolver um sistema de cadastro e autenticação para gerentes e usuarios.
@@ -11,7 +10,23 @@
 - Permitir que gerentes registrem os projetos.
 - Permitir que usuarios participem dos projetos.
 - Criar dashboards específicos para gerentes e usuarios, com funcionalidades relevantes para cada perfil.
-- 
+
+-- Mensuráveis:
+- Garantir que o sistema cadastre até 5 usuários.
+- Garantir que o sistema cadastre até 2 gerentes.
+- Garantir que um gerente cadastre pelo menos 5 projetos.
+- Garantir que um usuario se cadastre em pelo menos 2 projetos.
+
+-- Atingíveis:
+- Utilizar frameworks e bibliotecas bem documentadas (como Laravel) para assegurar o cumprimento dos prazos e qualidade do código.
+
+-- Relevantes:
+- Facilitar o processo de criação de projetos entre equipes e gerentes, otimizando o processo.
+
+### CRONOGRAMA:
+
+
+
 
 
 
