@@ -46,7 +46,7 @@
 <p><img src="/img/diagramaUso.png" width="1000px">
 
 ### DIAGRAMA DE FLUXO:
-<p><img src="/img/diagramaFluxo.png" width="1000px">
+<p><img src="/img/diagramaFluxo.png" width="500px">
 
 
 
