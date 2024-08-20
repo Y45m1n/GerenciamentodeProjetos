@@ -40,7 +40,7 @@
 - Problemas Técnicos com Internet.
 
 ### DIAGRAMA DE CLASSE:
-<p><img src="/img/diagramaClasse.png" width="1000px">
+<p><img src="/img/diagramaClasse.png" width="500px">
 
 
 ### DIAGRAMA DE USO:
