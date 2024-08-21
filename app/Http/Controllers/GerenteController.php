@@ -3,48 +3,49 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\User;
+use App\Models\Gerente; 
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
-class UserController extends Controller
+class GerenteController extends Controller
 {
     /**
-     * Show the form for creating a new user.
+     * Mostra o formulário para criar um novo gerente.
      *
      * @return \Illuminate\Http\Response
      */
     public function create()
     {
-        return view('auth.register');
+        return view('auth.register_manager');
     }
 
     /**
-     * Store a newly created user in storage.
+     * Armazena um novo gerente no banco de dados.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
+        // Valida os dados da requisição
         $validator = Validator::make($request->all(), [
             'name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users',
+            'email' => 'required|string|email|max:255|unique:gerentes', // Verifica na tabela 'gerentes'
             'password' => 'required|string|min:8|confirmed',
-            'is_manager' => 'nullable|boolean',
         ]);
-    
+
         if ($validator->fails()) {
             return redirect()->back()->withErrors($validator)->withInput();
         }
-    
-        User::create([
+
+        // Cria uma nova instância de gerente e salva no banco de dados
+        Gerente::create([
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
-            'is_manager' => $request->has('is_manager'), // Define se é um gerente
         ]);
-    
-        return redirect()->route('login')->with('success', 'User registered successfully.');
+
+        // Redireciona para o login com uma mensagem de sucesso
+        return redirect()->route('login')->with('success', 'Gerente registrado com sucesso.');
     }
-}    
+}

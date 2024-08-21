@@ -2,10 +2,10 @@
 
 namespace App\Models;
 
-use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Foundation\Auth\Gerente as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
-class User extends Authenticatable
+class Gerente extends Authenticatable
 {
     use Notifiable;
 
@@ -13,9 +13,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'is_manager',
     ];
-    
 
     protected $hidden = [
         'password',
