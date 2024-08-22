@@ -20,8 +20,9 @@ Route::middleware('auth')->group(function () {
 
 Route::get('register', [UserController::class, 'create'])->name('register');
 Route::post('register', [UserController::class, 'store']);
-Route::get('register_manager', [GerenteController::class, 'create'])->name('register_manager');
 
-// Rota para processar o envio do formulário
-Route::post('register_manager', [GerenteController::class, 'store']);
 require __DIR__.'/auth.php';
+Route::middleware(['auth'])->group(function () {
+    Route::get('/manager/dashboard', [DashboardController::class, 'managerDashboard'])->name('manager.dashboard');
+    Route::get('/member/dashboard', [DashboardController::class, 'memberDashboard'])->name('member.dashboard');
+});

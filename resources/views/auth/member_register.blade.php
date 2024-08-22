@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Register Member</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container mt-5">
-        <h1>Register</h1>
+        <h1>Register Member</h1>
         @if ($errors->any())
             <div class="alert alert-danger">
                 <ul>
@@ -18,7 +18,7 @@
                 </ul>
             </div>
         @endif
-        <form method="POST" action="{{ route('register_manager') }}">
+        <form method="POST" action="{{ route('members.store') }}">
             @csrf
             <div class="form-group">
                 <label for="name">Name:</label>

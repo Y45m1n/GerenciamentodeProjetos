@@ -42,7 +42,7 @@ class UserController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
-            'is_manager' => $request->has('is_manager'), // Define se é um gerente
+            'is_manager' => $request->is_manager ? true:false,// Define se é um gerente
         ]);
     
         return redirect()->route('login')->with('success', 'User registered successfully.');
