@@ -36,18 +36,22 @@
 - Git/GitHub
 
 ### ANÁLISE DE RISCO:
-- Atrasos no cronograma devido a requisitos não previstos.
-- Problemas Técnicos com Internet.
+-Atrasos no Cronograma devido a Requisitos Não Previstos:
+--Mitigação: Realizar uma análise detalhada dos requisitos e envolver todas as partes interessadas desde o início. Adotar uma metodologia ágil (como Scrum) para permitir ajustes contínuos e flexibilidade no planejamento.
+-Problemas Técnicos com Internet:
+--Mitigação: Garantir que todos os membros da equipe tenham uma conexão de internet estável e fornecer alternativas de trabalho offline quando possível.
+-Falta de Experiência da Equipe com as Ferramentas e Tecnologias Utilizadas:
+--Mitigação: Investir em treinamentos e recursos de aprendizado para a equipe. Estabelecer um plano de desenvolvimento contínuo e promover a troca de conhecimentos e boas práticas entre os membros da equipe.
 
 ### DIAGRAMA DE CLASSE:
-<p><img src="/img/diagramaClasse.png" width="500px">
+<p><img src="/img/DiagramaClasse.png" width="500px">
 
 
 ### DIAGRAMA DE USO:
-<p><img src="/img/diagramaUso.png" width="500px">
+<p><img src="/img/DiagramaUso.png" width="500px">
 
 ### DIAGRAMA DE FLUXO:
-<p><img src="/img/diagramaFluxo.png" width="1000px">
+<p><img src="/img/DiagramaFluxo.png" width="1000px">
 
 
 
