@@ -37,14 +37,14 @@
 - Equipe (Gerente de Projeto,Desenvolvedores Backend (2-3 membros),Desenvolvedores Frontend (2 membros),Designer UX/UI,Tester/QA (Controle de Qualidade))
 
 ### ANÁLISE DE RISCO:
--Atrasos no Cronograma devido a Requisitos Não Previstos:
---Mitigação: Realizar uma análise detalhada dos requisitos e envolver todas as partes interessadas desde o início. Adotar uma metodologia ágil (como Scrum) para permitir ajustes contínuos e flexibilidade no planejamento.
--Problemas Técnicos com Internet:
---Mitigação: Garantir que todos os membros da equipe tenham uma conexão de internet estável e fornecer alternativas de trabalho offline quando possível.
--Falta de Experiência da Equipe com as Ferramentas e Tecnologias Utilizadas:
---Mitigação: Investir em treinamentos e recursos de aprendizado para a equipe. Estabelecer um plano de desenvolvimento contínuo e promover a troca de conhecimentos e boas práticas entre os membros da equipe.
+- Atrasos no Cronograma devido a Requisitos Não Previstos:
+-- Mitigação: Realizar uma análise detalhada dos requisitos e envolver todas as partes interessadas desde o início. Adotar uma metodologia ágil (como Scrum) para permitir ajustes contínuos e flexibilidade no planejamento.
+- Problemas Técnicos com Internet:
+-- Mitigação: Garantir que todos os membros da equipe tenham uma conexão de internet estável e fornecer alternativas de trabalho offline quando possível.
+- Falta de Experiência da Equipe com as Ferramentas e Tecnologias Utilizadas:
+-- Mitigação: Investir em treinamentos e recursos de aprendizado para a equipe. Estabelecer um plano de desenvolvimento contínuo e promover a troca de conhecimentos e boas práticas entre os membros da equipe.
 - Mudanças nos Requisitos do Projeto:
---Mitigação: Um escopo claro ajuda a estabelecer expectativas realistas e a minimizar mudanças inesperadas, facilitando o controle de alterações.
+-- Mitigação: Um escopo claro ajuda a estabelecer expectativas realistas e a minimizar mudanças inesperadas, facilitando o controle de alterações.
 
 ### DIAGRAMA DE CLASSE:
 <p><img src="/img/DiagramaClasse.png" width="500px">
