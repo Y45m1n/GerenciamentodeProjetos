@@ -64,9 +64,14 @@
 - Pagina de Login, para logar colocar email e senha.
 <p><img src="/img/pagLogin.png" width="1000px">
 
-- Pagina de Cadastro, para logar colocar email e senha.
+- Pagina de Cadastro, para cadastrar colocar nome, email, senha, confirmar a senha e preencher se é gerente.
 <p><img src="/img/pagCadastro.png" width="1000px">
 
+- Dashboard de Gerente, com botão para cadastrar um projeto.
+<p><img src="/img/dashboard.png" width="1000px">
+
+- Pagina de cadastro de projeto, para cadastrar colocar nome do projeto, descrição, Data de Inicio e Data de Conclusão.
+<p><img src="/img/pagProjeto.png" width="1000px">
 
 
 
