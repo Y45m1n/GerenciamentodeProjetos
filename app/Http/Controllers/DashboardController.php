@@ -1,5 +1,4 @@
 <?php
-
 // app/Http/Controllers/DashboardController.php
 
 namespace App\Http\Controllers;
@@ -15,7 +14,7 @@ class DashboardController extends Controller
      */
     public function managerDashboard()
     {
-        return view('manager.dashboard');
+        return view('dashboard'); // View para o dashboard do gerente
     }
 
     /**
@@ -25,7 +24,6 @@ class DashboardController extends Controller
      */
     public function memberDashboard()
     {
-        return view('member.dashboard');
+        return view('member.dashboard'); // View para o dashboard do membro
     }
 }
-

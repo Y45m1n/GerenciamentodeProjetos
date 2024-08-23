@@ -56,8 +56,16 @@
 ### DIAGRAMA DE FLUXO:
 <p><img src="/img/DiagramaFluxo.png" width="1000px">
 
+### MANUAL DE USO:
 
+- Pagina Inicial que redireciona para as paginas de Login e Cadastro.
+<p><img src="/img/pagInicial.png" width="1000px">
 
+- Pagina de Login, para logar colocar email e senha.
+<p><img src="/img/pagLogin.png" width="1000px">
+
+- Pagina de Cadastro, para logar colocar email e senha.
+<p><img src="/img/pagCadastro.png" width="1000px">
 
 
 
